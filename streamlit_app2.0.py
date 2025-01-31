@@ -33,7 +33,7 @@ TRAY_MATERIAL_FACTORS = {
 
 # Heat exchanger material factors (from Table 22.25)
 HEAT_EXCHANGER_MATERIAL_FACTORS = {
-    "carbon steel/carbon steel": {"a": 0.00, "b": 0.09},
+    "carbon steel/carbon steel": {"a": 0.00, "b": 0.00},
     "carbon steel/brass": {"a": 1.08, "b": 0.05},
     "carbon steel/stainless steel": {"a": 1.75, "b": 0.13},
     "carbon steel/monel": {"a": 2.7, "b": 0.13},

@@ -219,7 +219,7 @@ def calculate_heat_exchanger_cost():
 
     pressure = st.number_input("Enter the design pressure (psig): ", min_value=0.0)
     material = st.selectbox("Enter the materials of construction:", list(HEAT_EXCHANGER_MATERIAL_FACTORS.keys()))
-    tube_length = st.number_input("Enter the tube length (ft): ", min_value=0.0)
+    tube_length = st.number_input("Enter the tube length (ft)(any number less than 20): ", min_value=0.0)
 
     # Calculate base cost (C_B)
     ln_area = math.log(area)
